@@ -21,7 +21,7 @@ var CaculatorCtrl = function ($scope) {
         if(history == null) {
             history = '';
         }
-        $scope.calcResult = prefix + result + '\r\n' + history;
+        $scope.calcResult = $scope.calcInput + prefix + result + '\r\n' + history;
     };
 
     $scope.keyPress = function(ev) {
