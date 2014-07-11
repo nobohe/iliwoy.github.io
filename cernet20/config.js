@@ -11,6 +11,6 @@ var cernet20_config = {
         url: 'http://www.bing.com'
     }, {
         title: 'Passive DNS 监控',
-        url: 'http://www.baidu.com'
+        url: 'http://getbootstrap.com'
     }]
 };
