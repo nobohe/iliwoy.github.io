@@ -178,12 +178,14 @@ function openPage(item) {
             imgMask.appendTo(slideCurrent);
 			img.appendTo(slideCurrent).parent().addClass('image-loading activeslide');
 			
+            /*
 			img.load(function(){
 				base._origDim($(this));
 				base.resizeNow();	// Resize background image
 				base.launch();
 				if( typeof theme != 'undefined' && typeof theme._init == "function" ) theme._init();	// Load Theme
 			});
+            */
 			
 			if (base.options.slides.length > 1){
 				// Set next image
@@ -207,6 +209,10 @@ function openPage(item) {
 			base.$el.css('visibility','hidden');
 			$('.load-item').hide();
 			
+
+            base.resizeNow();	// Resize background image
+            base.launch();
+            if( typeof theme != 'undefined' && typeof theme._init == "function" ) theme._init();	// Load Theme
     	};
 		
 		
