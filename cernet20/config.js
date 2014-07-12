@@ -14,6 +14,6 @@ var cernet20_config = {
         url: 'http://netsec.ccert.edu.cn'
     }, {
         title: 'Ghost Domain',
-        url: 'http://www.baidu.com'
+        url: 'http://www.bing.com'
     }]
 };
