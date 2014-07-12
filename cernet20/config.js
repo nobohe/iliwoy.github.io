@@ -12,5 +12,8 @@ var cernet20_config = {
     }, {
         title: 'Passive DNS 监控',
         url: 'http://netsec.ccert.edu.cn'
+    }, {
+        title: 'Ghost Domain',
+        url: 'http://www.baidu.com'
     }]
 };
