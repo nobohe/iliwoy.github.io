@@ -38,3 +38,7 @@ iframe {
     width: 100%;
     height: 100%;
 }
+
+.thumb-mask {
+    border: 1px solid black;
+}

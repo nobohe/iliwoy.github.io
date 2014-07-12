@@ -3,12 +3,12 @@ var cernet20_config = {
     transition: 6,
 
     //切换间隔时间，毫秒
-    slide_interval: 5000,
+    slide_interval: 10000,
 
     //页面配置
     pages: [{
         title: 'HTTPS 测量',
-        url: 'http://www.bing.com'
+        url: 'http://218.2.197.243'
     }, {
         title: 'Passive DNS 监控',
         url: 'http://netsec.ccert.edu.cn'
