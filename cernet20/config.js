@@ -15,5 +15,15 @@ var cernet20_config = {
     }, {
         title: 'Ghost Domain',
         url: 'http://www.bing.com'
-    }]
+    },{
+        title: 'opendns',
+        url: 'http://202.112.51.64:8000/opendns'
+    },{
+        title: 'opendns-world',
+        url: 'http://202.112.51.64:8000/opendns-world'
+    },{
+        title: 'king',
+        url: 'http://202.112.51.64:8000/king'
+    }
+    ]
 };
